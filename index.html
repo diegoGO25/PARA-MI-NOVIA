@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>💘¿Quieres ser el amor de mi vida?💘</title>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- ===== PANTALLA INICIAL ===== -->
+<div id="startScreen" class="screen active">
+    <div class="title-background"></div>
+    <canvas id="heartCanvas"></canvas>
+
+    <h1 class="title">
+        💘¡INVITACIÓN PARA LA PRINCESA<br>
+        LAURITA!💘
+    </h1>
+
+    <p class="subtitle">
+        PRESIONA CUALQUIER TECLA PARA COMENZAR...
+    </p>
+</div>
+
+<!-- ===== ESCENA ===== -->
+<div id="scene" class="scene">
+    <canvas id="skyCanvas"></canvas>
+    <div id="kissContainer"></div>
+
+
+    <div class="character girl">
+        <div class="head">
+            <div class="eyes"></div>
+            <div class="smile"></div>
+                <div class="hair"></div>
+            <div class="blush blush-left"></div>
+            <div class="blush blush-right"></div>
+            <div class="braid braid-left"></div>
+            <div class="braid braid-right"></div>
+            <div class="arm arm-left"></div>
+            <div class="arm arm-right"></div>
+
+        </div>
+        <div class="body"></div>
+    </div>
+
+    <div class="character boy">
+        <div class="head">
+            <div class="hair"></div>
+            <div class="glasses"></div>
+            <div class="glasses-bridge"></div>
+            <div class="eyes"></div>
+            <div class="smile"></div>
+            <div class="beard"></div>
+            <div class="blush blush-left"></div>
+            <div class="blush blush-right"></div>
+            <div class="arm arm-left"></div>
+            <div class="arm arm-right"></div>
+
+
+        </div>
+        <div class="body"></div>
+    </div>
+</div>
+
+<!-- ===== ESCENA 3 ===== -->
+<div id="scene3" class="scene hidden">
+
+    <div class="valentine-box">
+        <h1>¿QUIERES SER MI VALENTINE?</h1>
+        <div class="buttons">
+            <button id="yesBtn">Si</button>
+            <button id="noBtn">No</button>
+        </div>
+    </div>
+</div>
+<!-- ESCENA 4 -->
+<div id="scene4" class="scene hidden">
+    <h1 class="main-title">SABÍA QUE DIRÍAS QUE SÍ 💖</h1>
+    <div class="envelope-wrapper">
+        <div class="envelope">
+
+            <div class="envelope-back"></div>
+
+            <div class="letter">
+                <p>HOLA MI AMOR<br><br>
+Quiero decirte que siempre estas en mis pensamientos, y que cada momento a tu lado es un regalo que atesoro con todo mi corazón. Eres la luz que ilumina mis días y la razón de mi sonrisa. Quiero seguir construyendo recuerdos juntos, enfrentando desafíos y celebrando victorias, porque contigo a mi lado, sé que todo es posible. Te amo más de lo que las palabras pueden expresar, y estoy emocionado por el futuro que nos espera juntos.
+Aunque peliemos a veces, cada discusión solo fortalece nuestro amor y nos hace más fuertes como pareja. Gracias por ser mi compañera de vida, mi confidente y mi mejor amiga.
+
+                    <br><br>
+
+
+                </p>
+            </div>
+
+            <div class="flap"></div>
+
+        </div>
+    </div>
+
+</div>
+
+<canvas id="fireworksCanvas"></canvas>
+
+<script src="script.js"></script>
+</body>
+</html>
